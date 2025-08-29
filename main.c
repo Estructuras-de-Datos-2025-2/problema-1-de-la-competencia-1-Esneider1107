@@ -6,13 +6,13 @@ long n;
 long *p;
 
 scanf("%d", &n);
-p= (int*) malloc(n * sizeof(int));
+p= (long*) malloc(n * sizeof(long));
 
-for (int i = 0; i < n; i++)
-    scanf("%d", p + i);
+for (long i = 0; i < n; i++)
+    scanf("%ld", p + i);
 
-for (int i = n -1; i >= 0; i--)
-    printf("%d ", *(p + i));
+for (long i = n -1; i >= 0; i--)
+    printf("%ld ", *(p + i));
 
 
 free(p);
