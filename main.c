@@ -5,7 +5,7 @@ int main() {
 long n;
 long *p;
 
-scanf("%d", &n);
+scanf("%ld", &n);
 p= (long*) malloc(n * sizeof(long));
 
 for (long i = 0; i < n; i++)
