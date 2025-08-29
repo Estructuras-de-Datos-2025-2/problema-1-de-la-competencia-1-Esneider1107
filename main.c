@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main() {
-int n;
-int *p;
+long n;
+long *p;
 
 scanf("%d", &n);
 p= (int*) malloc(n * sizeof(int));
